@@ -1,0 +1,49 @@
+#main {
+  width: 80%;
+  margin: auto;
+  background-color: #31f1e1;
+  height: 630px;
+  text-align: center;
+}
+h2,
+h3 {
+  margin-top: 0px;
+}
+
+#title {
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#emptyLine {
+  height: 5px;
+  background-color: black;
+}
+
+#timeBlocks input {
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(42, 44, 165);
+  font-size: 18px;
+  font-family: monospace;
+}
+
+#timeBlocks button {
+  padding: 10px;
+  border-radius: 10px;
+  width: 60px;
+  background-color: DodgerBlue;
+  color: white;
+  cursor: pointer;
+}
+
+table {
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: RoyalBlue;
+}

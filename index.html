@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    <link href="plannerapp.css" rel="stylesheet" />
+    <script src="plannerapp.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <h2 id="title">Work Day Scheduler</h2>
+      <h3>
+        A Simple Calendar app for scheduling work Daily
+      </h3>
+      <h3 id="dateVal"></h3>
+
+      <div id="emptyLine"></div>
+      <div id="timeBlocks">
+        <table>
+          <tr>
+            <td><button>9AM</button></td>
+            <td><input type="text" id="9AM" size="70" /></td>
+            <td>
+              <button onclick="saveHourlySchedule('9AM')">
+                <i class="fa fa-save"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td><button>10AM</button></td>
+            <td><input type="text" id="10AM" size="70" /></td>
+            <td>
+              <button onclick="saveHourlySchedule('10AM')">
+                <i class="fa fa-save"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td><button>11AM</button></td>
+            <td><input type="text" id="11AM" size="70" /></td>
+            <td>
+              <button onclick="saveHourlySchedule('11AM')">
+                <i class="fa fa-save"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td><button>12AM</button></td>
+            <td><input type="text" id="12PM" size="70" /></td>
+            <td>
+              <button onclick="saveHourlySchedule('12PM')">
+                <i class="fa fa-save"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td><button>1PM</button></td>
+            <td><input type="text" id="1PM" size="70" /></td>
+            <td>
+              <button onclick="saveHourlySchedule('1PM')">
+                <i class="fa fa-save"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td><button>2PM</button></td>
+            <td><input type="text" id="2PM" size="70" /></td>
+            <td>
+              <button onclick="saveHourlySchedule('2PM')">
+                <i class="fa fa-save"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td><button>3PM</button></td>
+            <td><input type="text" id="3PM" size="70" /></td>
+            <td>
+              <button onclick="saveHourlySchedule('3PM')">
+                <i class="fa fa-save"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td><button>4PM</button></td>
+            <td><input type="text" id="4PM" size="70" /></td>
+            <td>
+              <button onclick="saveHourlySchedule('4PM')">
+                <i class="fa fa-save"></i>
+              </button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
